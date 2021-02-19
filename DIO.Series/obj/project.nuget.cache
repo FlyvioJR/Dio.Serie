@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9eqBZZ0N6gukcSZHafPT9hk2o4HP1VtdiZOilFyRONMVlHOnXPZRckEde66drk/bzVB2CJ4RVNnQc0chHBc5iw==",
+  "dgSpecHash": "lEZGMFjSASI3Jkr3zSHTQh+7v/WuUXniW0wrdF31tHJz6stu+FqhGUgIqTB6aJ927jM5+XNHnyh/nmTZKvSWKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Flyvi\\source\\repos\\DIO.Series\\DIO.Series\\DIO.Series.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Flyvi\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
