@@ -30,6 +30,7 @@ namespace DIO.Series.Entidades
             retorno += $"Titulo: {Titulo + Environment.NewLine}";
             retorno += $"Descricao: {Descricao + Environment.NewLine}";
             retorno += $"Ano do lançamento: {Ano + Environment.NewLine}";
+            retorno += Excluido ==  true ? "Serie excluida" : "serie cadastrada";
             return retorno;
         }
 
@@ -45,6 +46,10 @@ namespace DIO.Series.Entidades
         public void Excluir()
         {
             Excluido = true;
+        }
+        public bool VerificarStatus()
+        {
+            return Excluido;
         }
     }
 }
